@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import 'package:try1/widgets/drawer.dart';
 
 class home_page extends StatelessWidget {
   // This widget is the root of your application.
@@ -15,7 +16,7 @@ class home_page extends StatelessWidget {
             child: Text("welcome to $days days of flutter"),
           ),
         ),
-        drawer: Drawer(),
+        drawer: drawer(),
     );
   }
 }
